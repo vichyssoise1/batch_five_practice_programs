@@ -1,3 +1,4 @@
 #Basic user input
-number = int(input("Enter a number: "))
-print("You entered:", number)
+number = input("Enter a number (0-1000): ")
+number = number.zfill(6) # add with zeros to make it 6 digits
+print("Formatted number:", number)
